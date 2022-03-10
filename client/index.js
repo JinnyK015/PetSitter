@@ -4,14 +4,18 @@ import { Provider } from 'react-redux'
 import { BrowserRouter as Router } from 'react-router-dom'
 import store from './store'
 
-import config from './auth_config.json'
-// how to grab heroku's config????????????????????? or do i need to something differance????
-
-
 import App from './components/App'
 import { Auth0Provider } from '@auth0/auth0-react'
 
 import ScrollToTop from './components/ScrollToTop'
+
+// import config from './auth_config.json'
+// how to grab heroku's config????????????????????? or do i need to something differance????
+const config = {
+  domain: process.env.AUTH0_DOMAIN,
+  clientId: process.env.AUTH0_CLIENT_ID,
+  audience: process.env.AUTH0_CLIENT_SECRET
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
