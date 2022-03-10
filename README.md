@@ -10,6 +10,7 @@
 <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&color=C21325&logo=Jest&logoColor=white">
 <img src="https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&color=EB5424&logo=Auth0&logoColor=white">
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&color=CC6699&logo=Sass&logoColor=white">
+  <img src="https://img.shields.io/badge/Auth0-EB5424?style=for-the-badge&color=EB5424&logo=Auth0&logoColor=white">
 </p>
 
 ---
