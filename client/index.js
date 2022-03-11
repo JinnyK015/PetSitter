@@ -9,17 +9,22 @@ import { Auth0Provider } from '@auth0/auth0-react'
 
 import ScrollToTop from './components/ScrollToTop'
 
+const config = {
+  domain: 'harakeke-2022-jinny.au.auth0.com',
+  clientId: 'jIPxlFp4Wk62we7zJ2IFBHj15OavlgQZ',
+  audience: 'https://petsitter/api'
+}
 // import config from './auth_config.json'
 // import envConfig from '../server/index'
 // import dotenv from 'dotenv'
 // const envConfig = dotenv.config()
 // console.log(envConfig)
 // how to grab heroku's config????????????????????? or do i need to something differance????
-const config = {
-  domain: process.env.AUTH0_DOMAIN,
-  clientId: process.env.AUTH0_CLIENT_ID,
-  audience: process.env.AUTH0_SSO_AUDIENCE
-}
+// const config = {
+//   domain: process.env.AUTH0_DOMAIN,
+//   clientId: process.env.AUTH0_CLIENT_ID,
+//   audience: process.env.AUTH0_SSO_AUDIENCE
+// }
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
