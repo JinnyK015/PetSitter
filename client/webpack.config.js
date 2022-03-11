@@ -1,6 +1,5 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const Dotenv = require('dotenv-webpack')
 
 module.exports = {
   entry: ['./client/index.js', './client/styles/index.scss'],
@@ -14,8 +13,7 @@ module.exports = {
       filename: 'styles.css',
       chunkFilename: '[id].css',
       ignoreOrder: false // Enable to remove warnings about conflicting order,
-    }),
-    new Dotenv()
+    })
   ],
   module: {
     rules: [
