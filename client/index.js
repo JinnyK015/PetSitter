@@ -10,10 +10,10 @@ import { Auth0Provider } from '@auth0/auth0-react'
 import ScrollToTop from './components/ScrollToTop'
 
 // import config from './auth_config.json'
-import envConfig from '../server/index'
+// import envConfig from '../server/index'
 // import dotenv from 'dotenv'
 // const envConfig = dotenv.config()
-console.log(envConfig)
+// console.log(envConfig)
 // how to grab heroku's config????????????????????? or do i need to something differance????
 const config = {
   domain: process.env.AUTH0_DOMAIN,
