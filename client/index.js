@@ -10,7 +10,7 @@ import { Auth0Provider } from '@auth0/auth0-react'
 import ScrollToTop from './components/ScrollToTop'
 
 const config = {
-  domain: 'harakeke-2022-jinny.au.auth0.com',
+  domain: 'jinny-deploy-petsitter.netlify.app',
   clientId: 'jIPxlFp4Wk62we7zJ2IFBHj15OavlgQZ',
   audience: 'https://petsitter/api'
 }
